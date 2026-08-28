@@ -5,7 +5,7 @@ Source: https://learning.oreilly.com/skill/software-architecture/0642572295189/
 
 Started: 2026-08-28
 
-This repo tracks my progress through all **4 levels / 43 competencies** of the skill.
+This repo tracks my progress through all **5 levels / 43 competencies** of the skill.
 Each level has its own file under [`levels/`](./levels); cross-cutting synthesis notes
 live under [`concepts/`](./concepts) as I create them.
 
@@ -16,11 +16,12 @@ live under [`concepts/`](./concepts) as I create them.
 | Level | Name | Competencies | Done | Status | Notes |
 |-------|------|:------------:|:----:|--------|-------|
 | [1](./levels/level-1-exploring.md) | Exploring | 15 | 0/15 | 🟡 In progress | Architecture thinking, styles, characteristics, data |
-| 2 | _tbd_ | — | — | ⚪ Not started | Add when curriculum is known |
-| 3 | _tbd_ | — | — | ⚪ Not started | |
-| 4 | _tbd_ | — | — | ⚪ Not started | |
+| 2 | Applying | tbd | — | ⚪ Not started | Add competencies when known |
+| 3 | Building | tbd | — | ⚪ Not started | |
+| 4 | Advancing | tbd | — | ⚪ Not started | |
+| 5 | Expert | tbd | — | ⚪ Not started | |
 
-**Overall:** 0 / 43 competencies verified.
+**Overall:** 0 / 43 competencies verified _(15 mapped for Level 1; Levels 2–5 counts pending)_.
 
 Status legend: 🟢 Done · 🟡 In progress · 🔴 Known gap · ⚪ Not started
 
