@@ -1,0 +1,468 @@
+{
+  "tldrawFileFormatVersion": 1,
+  "schema": {
+    "schemaVersion": 2,
+    "sequences": {
+      "com.tldraw.store": 5,
+      "com.tldraw.asset": 1,
+      "com.tldraw.camera": 1,
+      "com.tldraw.document": 2,
+      "com.tldraw.instance": 26,
+      "com.tldraw.instance_page_state": 5,
+      "com.tldraw.page": 1,
+      "com.tldraw.instance_presence": 6,
+      "com.tldraw.pointer": 1,
+      "com.tldraw.shape": 4,
+      "com.tldraw.user": 1,
+      "com.tldraw.asset.image": 6,
+      "com.tldraw.asset.video": 5,
+      "com.tldraw.asset.bookmark": 2,
+      "com.tldraw.shape.group": 0,
+      "com.tldraw.shape.text": 4,
+      "com.tldraw.shape.bookmark": 2,
+      "com.tldraw.shape.draw": 5,
+      "com.tldraw.shape.geo": 11,
+      "com.tldraw.shape.note": 13,
+      "com.tldraw.shape.line": 5,
+      "com.tldraw.shape.frame": 1,
+      "com.tldraw.shape.arrow": 8,
+      "com.tldraw.shape.highlight": 4,
+      "com.tldraw.shape.embed": 4,
+      "com.tldraw.shape.image": 5,
+      "com.tldraw.shape.video": 4,
+      "com.tldraw.binding.arrow": 1
+    }
+  },
+  "records": [
+    {
+      "x": 0,
+      "y": 0,
+      "z": 1,
+      "meta": {},
+      "id": "camera:page:page",
+      "typeName": "camera"
+    },
+    {
+      "x": 0,
+      "y": 100,
+      "rotation": 0,
+      "isLocked": false,
+      "opacity": 1,
+      "meta": {
+        "tldrawMcp": {
+          "diagramId": "architecture-mtcwktv4",
+          "diagramType": "architecture",
+          "metadataVersion": 2,
+          "kind": "component",
+          "elementId": "README",
+          "actions": [
+            "Lists 43 competencies",
+            "Tracks level summaries",
+            "Links to specific level files"
+          ],
+          "errors": [],
+          "evidence": []
+        }
+      },
+      "id": "shape:architecture-mtcwktv4-component-README",
+      "type": "geo",
+      "parentId": "page:page",
+      "index": "a12Fr",
+      "props": {
+        "geo": "rectangle",
+        "dash": "solid",
+        "url": "",
+        "w": 320,
+        "h": 176,
+        "growY": 0,
+        "scale": 1,
+        "labelColor": "black",
+        "color": "blue",
+        "fill": "semi",
+        "size": "m",
+        "font": "sans",
+        "align": "start",
+        "verticalAlign": "start",
+        "richText": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Index (README.md)"
+                }
+              ]
+            },
+            {
+              "type": "paragraph"
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "• Lists 43 competencies"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "• Tracks level summaries"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "• Links to specific level files"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "typeName": "shape"
+    },
+    {
+      "x": 0,
+      "y": 0,
+      "lastActivityTimestamp": 0,
+      "meta": {},
+      "id": "pointer:NJXyGmOKDpHlmGwOtLvzB",
+      "typeName": "pointer"
+    },
+    {
+      "x": 560,
+      "y": 100,
+      "rotation": 0,
+      "isLocked": false,
+      "opacity": 1,
+      "meta": {
+        "tldrawMcp": {
+          "diagramId": "architecture-mtcwktv4",
+          "diagramType": "architecture",
+          "metadataVersion": 2,
+          "kind": "component",
+          "elementId": "LEVELS",
+          "actions": [
+            "Details key lessons",
+            "Records personal takeaways",
+            "Tracks quiz results"
+          ],
+          "errors": [],
+          "evidence": []
+        }
+      },
+      "id": "shape:architecture-mtcwktv4-component-LEVELS",
+      "type": "geo",
+      "parentId": "page:page",
+      "index": "a2ywb",
+      "props": {
+        "geo": "rectangle",
+        "dash": "solid",
+        "url": "",
+        "w": 320,
+        "h": 176,
+        "growY": 0,
+        "scale": 1,
+        "labelColor": "black",
+        "color": "blue",
+        "fill": "semi",
+        "size": "m",
+        "font": "sans",
+        "align": "start",
+        "verticalAlign": "start",
+        "richText": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Level Notes (Markdown)"
+                }
+              ]
+            },
+            {
+              "type": "paragraph"
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "• Details key lessons"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "• Records personal takeaways"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "• Tracks quiz results"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "typeName": "shape"
+    },
+    {
+      "x": 320,
+      "y": 188,
+      "rotation": 0,
+      "isLocked": false,
+      "opacity": 1,
+      "meta": {
+        "tldrawMcp": {
+          "diagramId": "architecture-mtcwktv4",
+          "diagramType": "architecture",
+          "metadataVersion": 2,
+          "kind": "connection",
+          "elementId": "README->LEVELS:0",
+          "from": "README",
+          "to": "LEVELS",
+          "call": "Navigates to level notes",
+          "evidence": []
+        }
+      },
+      "id": "shape:architecture-mtcwktv4-connection-0",
+      "type": "arrow",
+      "parentId": "page:page",
+      "index": "a3VLE",
+      "props": {
+        "kind": "elbow",
+        "labelColor": "black",
+        "color": "black",
+        "fill": "none",
+        "dash": "solid",
+        "size": "s",
+        "arrowheadStart": "none",
+        "arrowheadEnd": "arrow",
+        "font": "sans",
+        "start": {
+          "x": 0,
+          "y": 0
+        },
+        "end": {
+          "x": 240,
+          "y": 0
+        },
+        "bend": 0,
+        "richText": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Navigates to level notes"
+                }
+              ]
+            }
+          ]
+        },
+        "labelPosition": 0.5,
+        "scale": 1,
+        "elbowMidPoint": 0.5
+      },
+      "typeName": "shape"
+    },
+    {
+      "x": 0,
+      "y": 0,
+      "rotation": 0,
+      "isLocked": false,
+      "opacity": 1,
+      "meta": {
+        "tldrawMcp": {
+          "diagramId": "architecture-mtcwktv4",
+          "diagramType": "architecture",
+          "metadataVersion": 2,
+          "kind": "title"
+        }
+      },
+      "id": "shape:architecture-mtcwktv4-title",
+      "type": "text",
+      "parentId": "page:page",
+      "index": "a07jQ",
+      "props": {
+        "color": "black",
+        "size": "xl",
+        "font": "sans",
+        "textAlign": "start",
+        "w": 880,
+        "richText": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Software Architecture Skill Notes Structure"
+                }
+              ]
+            }
+          ]
+        },
+        "scale": 1,
+        "autoSize": false
+      },
+      "typeName": "shape"
+    },
+    {
+      "meta": {
+        "tldrawMcp": {
+          "diagramId": "architecture-mtcwktv4",
+          "diagramType": "architecture",
+          "metadataVersion": 2,
+          "kind": "connection",
+          "elementId": "README->LEVELS:0",
+          "from": "README",
+          "to": "LEVELS",
+          "call": "Navigates to level notes",
+          "evidence": []
+        }
+      },
+      "id": "binding:architecture-mtcwktv4-connection-0-end",
+      "type": "arrow",
+      "fromId": "shape:architecture-mtcwktv4-connection-0",
+      "toId": "shape:architecture-mtcwktv4-component-LEVELS",
+      "props": {
+        "terminal": "end",
+        "normalizedAnchor": {
+          "x": 0,
+          "y": 0.5
+        },
+        "isExact": false,
+        "isPrecise": true,
+        "snap": "edge"
+      },
+      "typeName": "binding"
+    },
+    {
+      "editingShapeId": null,
+      "croppingShapeId": null,
+      "selectedShapeIds": [],
+      "hoveredShapeId": null,
+      "erasingShapeIds": [],
+      "hintingShapeIds": [],
+      "focusedGroupId": null,
+      "meta": {},
+      "id": "instance_page_state:BJc_R_Tp3KwzOCE2xfz-2",
+      "pageId": "page:page",
+      "typeName": "instance_page_state"
+    },
+    {
+      "meta": {},
+      "id": "page:page",
+      "name": "Page 1",
+      "index": "a1",
+      "typeName": "page"
+    },
+    {
+      "gridSize": 10,
+      "name": "main",
+      "meta": {},
+      "id": "document:document",
+      "typeName": "document"
+    },
+    {
+      "followingUserId": null,
+      "opacityForNextShape": 1,
+      "stylesForNextShape": {},
+      "brush": null,
+      "scribbles": [],
+      "cursor": {
+        "type": "default",
+        "rotation": 0
+      },
+      "isFocusMode": false,
+      "exportBackground": true,
+      "isDebugMode": false,
+      "isToolLocked": false,
+      "screenBounds": {
+        "x": 0,
+        "y": 0,
+        "w": 1080,
+        "h": 720
+      },
+      "insets": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "zoomBrush": null,
+      "isGridMode": false,
+      "isPenMode": false,
+      "chatMessage": "",
+      "isChatting": false,
+      "highlightedUserIds": [],
+      "isFocused": false,
+      "devicePixelRatio": 1,
+      "isCoarsePointer": false,
+      "isHoveringCanvas": null,
+      "openMenus": [],
+      "isChangingStyle": false,
+      "isReadonly": false,
+      "meta": {},
+      "duplicateProps": null,
+      "cameraState": "idle",
+      "id": "instance:instance",
+      "currentPageId": "page:page",
+      "typeName": "instance"
+    },
+    {
+      "meta": {
+        "tldrawMcp": {
+          "diagramId": "architecture-mtcwktv4",
+          "diagramType": "architecture",
+          "metadataVersion": 2,
+          "kind": "connection",
+          "elementId": "README->LEVELS:0",
+          "from": "README",
+          "to": "LEVELS",
+          "call": "Navigates to level notes",
+          "evidence": []
+        }
+      },
+      "id": "binding:architecture-mtcwktv4-connection-0-start",
+      "type": "arrow",
+      "fromId": "shape:architecture-mtcwktv4-connection-0",
+      "toId": "shape:architecture-mtcwktv4-component-README",
+      "props": {
+        "terminal": "start",
+        "normalizedAnchor": {
+          "x": 1,
+          "y": 0.5
+        },
+        "isExact": false,
+        "isPrecise": true,
+        "snap": "edge"
+      },
+      "typeName": "binding"
+    }
+  ]
+}
