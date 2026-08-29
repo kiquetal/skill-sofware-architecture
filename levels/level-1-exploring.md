@@ -64,7 +64,9 @@ design low effort and tactical.
 - 
 Put you emphasis in the strategic and not in the tactical
 
+Tactical = specific action to remediate inmediate problem
 
+Strategy = a high-level visual to see and attack problem that could evolve in short-time
 
 ---
 
