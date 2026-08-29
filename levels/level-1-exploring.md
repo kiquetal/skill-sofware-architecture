@@ -66,7 +66,7 @@ Tactical = a specific action to remediate an immediate problem.
 
 Strategy = a high-level visual to see and attack problems that could evolve in the short term.
 
-Law of software architecture
+Laws of software architecture
 
 1. Everything in software architecture is a trade-off.
 
@@ -87,7 +87,7 @@ Law of software architecture
 Collaboration, risk analysis, governance, facilitation, leadership, negotiation.
 
 **Takeaway:**
-1. Convert future decisions by prioritizing trade-offs.
+1. Consider future decisions by prioritizing trade-offs.
 2. Continually analyze the architecture and current technology, and recommend new solutions.
 3. Analyze technology and industry trends, and stay current with them.
 
