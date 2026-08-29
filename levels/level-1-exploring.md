@@ -104,9 +104,9 @@ It will vary for every business.
 
 **Key ideas:**
 - Modularity vs granularity:
-Modularity = breaking the monolithc in pieces
+Modularity = breaking the monolithic into pieces.
 
-Granularity = is how big are these components
+Granularity = how big these components are.
 
 
 - Separation of concerns:
