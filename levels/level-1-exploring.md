@@ -85,10 +85,17 @@ crucial context via Architecture Decision Records or ADR.
 **Lessons:** What is a Software Architect? · Expectations of a Software Architect → Final Quiz (70%)
 
 **Key ideas:**
-- 
+-
+
+Collaboration, risk analysis, governance, facitilation, leadershp, negotiation
+ 
 
 **Takeaway:**
 - 
+
+Too broad: application architect, security architect, network architect,solutions,architect,system architect
+It will vary from every business. 
+
 
 ---
 
