@@ -108,9 +108,16 @@ Modularity = breaking the monolithic into pieces.
 
 Granularity = how big these components are.
 
+You can always attack little area with some test, it is the natural way to oversee these components
+
+maintainability , testability, deployability
 
 - Separation of concerns:
+
+
 - Disintegrators (reasons to break apart):
+
+
 - Integrators (reasons to keep together):
 
 **Takeaway:**
