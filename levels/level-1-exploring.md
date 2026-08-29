@@ -68,11 +68,11 @@ Strategy = a high-level visual to see and attack problems that could evolve in t
 
 Law of software architecture
 
-1- Everything in software architecture is a trade-off.
+1. Everything in software architecture is a trade-off.
 
-2- Separation of concerns. How an architecture works is easy by reading the code. Documenting why a choice was made prevents future teams from blindly rewriting or breaking crucial context via Architecture Decision Records (ADR).
+2. Separation of concerns. How an architecture works is easy by reading the code. Documenting why a choice was made prevents future teams from blindly rewriting or breaking crucial context via Architecture Decision Records (ADR).
 
-3- The law of change, the only constant in software is change.
+3. The law of change: the only constant in software is change.
 
 ---
 
@@ -87,8 +87,6 @@ Law of software architecture
 Collaboration, risk analysis, governance, facilitation, leadership, negotiation.
 
 **Takeaway:**
-- 
-
 1. Convert future decisions by prioritizing trade-offs.
 2. Continually analyze the architecture and current technology, and recommend new solutions.
 3. Analyze technology and industry trends, and stay current with them.
