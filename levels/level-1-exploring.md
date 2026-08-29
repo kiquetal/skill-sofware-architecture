@@ -57,9 +57,14 @@ Status legend: 🟢 Verified · 🟡 In progress · 🔴 Known gap · ⚪ Untest
 
 **Key ideas:**
 - 
+architecture is high effort and strategic
+design low effort and tactical.
 
 **Takeaway:**
 - 
+Put you emphasis in the strategic and not in the tactical
+
+
 
 ---
 
