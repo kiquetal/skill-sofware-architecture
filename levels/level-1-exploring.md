@@ -56,24 +56,21 @@ Status legend: 🟢 Verified · 🟡 In progress · 🔴 Known gap · ⚪ Untest
 **Lessons:** Architectural Thinking · Architecture vs Design → Final Quiz
 
 **Key ideas:**
-- 
-architecture is high effort and strategic
-design low effort and tactical.
+- Architecture is high effort and strategic.
+- Design is low effort and tactical.
 
 **Takeaway:**
-- 
-Put you emphasis in the strategic and not in the tactical
+- Put your emphasis on the strategic, not the tactical.
 
-Tactical = specific action to remediate inmediate problem
+Tactical = a specific action to remediate an immediate problem.
 
-Strategy = a high-level visual to see and attack problem that could evolve in short-time
+Strategy = a high-level visual to see and attack problems that could evolve in the short term.
 
 Law of software architecture
 
-1- Everything in software architecture is a trade-off
+1- Everything in software architecture is a trade-off.
 
-2- Separation of concerns. How an architecture works is easy by reading the code. Documentating why a choice was made prevents future teams from blindly rewritting or breaking
-crucial context via Architecture Decision Records or ADR.
+2- Separation of concerns. How an architecture works is easy by reading the code. Documenting why a choice was made prevents future teams from blindly rewriting or breaking crucial context via Architecture Decision Records (ADR).
 
 3- The law of change, the only constant in software is change.
 
@@ -87,14 +84,17 @@ crucial context via Architecture Decision Records or ADR.
 **Key ideas:**
 -
 
-Collaboration, risk analysis, governance, facitilation, leadershp, negotiation
- 
+Collaboration, risk analysis, governance, facilitation, leadership, negotiation.
 
 **Takeaway:**
 - 
 
-Too broad: application architect, security architect, network architect,solutions,architect,system architect
-It will vary from every business. 
+1. Convert future decisions by prioritizing trade-offs.
+2. Continually analyze the architecture and current technology, and recommend new solutions.
+3. Analyze technology and industry trends, and stay current with them.
+
+Too broad: application architect, security architect, network architect, solutions architect, system architect.
+It will vary for every business.
 
 
 ---
