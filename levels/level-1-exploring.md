@@ -66,13 +66,7 @@ Tactical = a specific action to remediate an immediate problem.
 
 Strategy = a high-level visual to see and attack problems that could evolve in the short term.
 
-Laws of software architecture
-
-1. Everything in software architecture is a trade-off.
-
-2. Separation of concerns. How an architecture works is easy by reading the code. Documenting why a choice was made prevents future teams from blindly rewriting or breaking crucial context via Architecture Decision Records (ADR).
-
-3. The law of change: the only constant in software is change.
+See the [Three Laws of Software Architecture](../concepts/laws-of-software-architecture.md) for foundational principles.
 
 ---
 
