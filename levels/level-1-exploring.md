@@ -33,11 +33,11 @@ Status legend: 🟢 Verified · 🟡 In progress · 🔴 Known gap · ⚪ Untest
 | 1.1 | Software Architecture vs Software Design | 🟡 | — | |
 | 1.2 | Expectations of a Software Architect | 🟡 | — | |
 | 1.3 | Modularity vs Granularity | 🟡 | — | |
-| 1.4 | Identifying Architectural Styles | ⚪ | — | |
+| 1.4 | Identifying Architectural Styles | 🟡 | — | |
 | 1.5 | Layered Monolithic Architecture Style | ⚪ | — | |
 | 1.6 | Modular Monolith Architecture Style | ⚪ | — | |
-| 1.7 | Microkernel Architecture Style | ⚪ | — | |
-| 1.8 | Microservices Architecture Style | ⚪ | — | |
+| 1.7 | Microkernel Architecture Style | 🟡 | — | |
+| 1.8 | Microservices Architecture Style | 🟡 | — | |
 | 1.9 | Event-Driven Architecture Style | ⚪ | — | |
 | 1.10 | Space-Based Architecture Style | ⚪ | — | |
 | 1.11 | Understanding Architectural Characteristics | ⚪ | — | |
