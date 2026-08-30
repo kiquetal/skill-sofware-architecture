@@ -108,11 +108,11 @@ Modularity = breaking the monolithic into pieces.
 
 Granularity = how big these components are.
 
-You can always attack little area with some test, it is the natural way to oversee these components
+You can always test small areas; this is a natural way to oversee components.
 
-maintainability , testability, deployability, scalability
+Maintainability, testability, deployability, and scalability.
 
-Embrace modularity,but we aware of granularity
+Embrace modularity, but be aware of granularity.
 
 - Separation of concerns:
 
