@@ -229,6 +229,8 @@ microservices architecture, service-based architecture, event-driven architectur
 - 
 Minimal functionality to run the system 
 Core system, plug-in component
+Domain and technical
+
 
 ---
 
@@ -238,18 +240,10 @@ Core system, plug-in component
 **Lessons:** Topology · Knowledge Check · Data Topology · Characteristics → Final Quiz (70%)
 
 **Key ideas:**
-- Good for service decoupling, because it embrace the plugin, so you can evolve some components
-
-
-**Takeaway:**
-- 
-
----
-
-### 1.9 — Event-Driven Architecture Style
-> **Goal:** Describe topologies and characteristics of the event-driven style.
-
 **Lessons:** Topology · Exercise: Events vs Messages · Knowledge Check · Data Topology · Characteristics → Final Quiz (70%)
+
+- Bounded context is just the the granularity, this is critical for microservices pattern
+
 
 **Key ideas:**
 - Broker vs mediator topology:
