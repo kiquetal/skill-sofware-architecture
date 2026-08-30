@@ -271,6 +271,10 @@ Scalability and fault tolerance are also high.
 - Broker vs mediator topology:
 - Events vs messages:
 
+We react to event, this event just navigate for several services. 
+Derived events is just the crucial parts, that allow us to run task in parallelal
+
+
 **Takeaway:**
 - 
 
