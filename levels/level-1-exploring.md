@@ -119,8 +119,21 @@ Embrace modularity, but be aware of granularity.
 
 - Disintegrators (reasons to break apart):
 
+1- service funcionality (notification service) (expand every type of notification)
+
+2- code volatility  
+
+3- scalability and throughput
+
+4- fault tolerance
+
+5- access restriction
+
 
 - Integrators (reasons to keep together):
+
+
+
 
 **Takeaway:**
 - 
