@@ -30,9 +30,9 @@ Status legend: 🟢 Verified · 🟡 In progress · 🔴 Known gap · ⚪ Untest
 
 | # | Competency | Status | Quiz | Notes |
 |---|------------|--------|------|-------|
-| 1.1 | Software Architecture vs Software Design | ⚪ | — | |
-| 1.2 | Expectations of a Software Architect | ⚪ | — | |
-| 1.3 | Modularity vs Granularity | ⚪ | — | |
+| 1.1 | Software Architecture vs Software Design | 🟡 | — | |
+| 1.2 | Expectations of a Software Architect | 🟡 | — | |
+| 1.3 | Modularity vs Granularity | 🟡 | — | |
 | 1.4 | Identifying Architectural Styles | ⚪ | — | |
 | 1.5 | Layered Monolithic Architecture Style | ⚪ | — | |
 | 1.6 | Modular Monolith Architecture Style | ⚪ | — | |
@@ -110,7 +110,9 @@ Granularity = how big these components are.
 
 You can always attack little area with some test, it is the natural way to oversee these components
 
-maintainability , testability, deployability
+maintainability , testability, deployability, scalability
+
+Embrace modularity,but we aware of granularity
 
 - Separation of concerns:
 
