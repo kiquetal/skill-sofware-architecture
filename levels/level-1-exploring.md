@@ -251,10 +251,10 @@ Domain and technical
 
 **Takeaway:**
 - 
-good for modularity,no for simplicity
-maintainability, testability, deployabilit and evolvability is high.
+Good for modularity, but not for simplicity.
+Maintainability, testability, deployability, and evolvability are high.
 
-scalablity, and fault tolerance also high.
+Scalability and fault tolerance are also high.
 
 ---
 
