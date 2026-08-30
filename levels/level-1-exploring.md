@@ -132,7 +132,13 @@ Embrace modularity, but be aware of granularity.
 
 - Integrators (reasons to keep together):
 
+1- Database Restrictions
 
+
+2- Data dependencies
+
+
+3- Workflow and choreagrphy
 
 
 **Takeaway:**
@@ -145,9 +151,27 @@ Embrace modularity, but be aware of granularity.
 
 **Lessons:** Monolithic vs Distributed Architecture · The 11 Fallacies of Distributed Computing → Final Quiz (70%)
 
+
+|Architecture style | Architecture pattern | 
+|------------------ | -------------------- |
+| Type of  deployment,naming of service      | Contextual solution to a particular solution    |
+
+
 **Key ideas:**
 - Monolithic vs distributed:
+
+For monolithic:
+pipeline architecture, microkernel architecture layered architecture modular monolith
+
+For microservice:
+microservice architecture, service-based architecture, event-driven architecture, spaced-base architecture  
+
+
 - 11 Fallacies of distributed computing:
+
+
+
+
 
 **Takeaway:**
 - 
