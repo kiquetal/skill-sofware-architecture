@@ -113,9 +113,9 @@ Embrace modularity, but be aware of granularity.
 
 - Disintegrators (reasons to break apart):
 
-1- service funcionality (notification service) (expand every type of notification)
+1- service functionality (e.g., notification service, handling all notification types)
 
-2- code volatility  
+2- code volatility
 
 3- scalability and throughput
 
@@ -126,13 +126,11 @@ Embrace modularity, but be aware of granularity.
 
 - Integrators (reasons to keep together):
 
-1- Database Restrictions
-
+1- Database restrictions
 
 2- Data dependencies
 
-
-3- Workflow and choreagrphy
+3- Workflow and choreography
 
 
 **Takeaway:**
@@ -148,30 +146,30 @@ Embrace modularity, but be aware of granularity.
 
 |Architecture style | Architecture pattern | 
 |------------------ | -------------------- |
-| Type of  deployment,naming of service      | Contextual solution to a particular solution    |
+| Type of deployment, naming of service | Contextual solution to a particular problem |
 
 
 **Key ideas:**
 - Monolithic vs distributed:
 
 For monolithic:
-pipeline architecture, microkernel architecture layered architecture modular monolith
+pipeline architecture, microkernel architecture, layered architecture, modular monolith
 
-For microservice:
-microservice architecture, service-based architecture, event-driven architecture, spaced-base architecture  
+For microservices:
+microservices architecture, service-based architecture, event-driven architecture, space-based architecture
 
 
 - 11 Fallacies of distributed computing:
 
 1- Network is reliable
 
-2- Latenct is zero (get a to b)
+2- Latency is zero (get a to b)
 
-3- Bandwidth is infinite (throotling)
+3- Bandwidth is infinite (throttling)
 
 4- Network is secure
 
-5- Topoly does not change 
+5- Topology does not change 
 
 6- There is one administrator
 
