@@ -38,7 +38,7 @@ Status legend: 🟢 Verified · 🟡 In progress · 🔴 Known gap · ⚪ Untest
 | 1.6 | Modular Monolith Architecture Style | ⚪ | — | |
 | 1.7 | Microkernel Architecture Style | 🟢 | — | |
 | 1.8 | Microservices Architecture Style | 🟢 | — | |
-| 1.9 | Event-Driven Architecture Style | ⚪ | — | |
+| 1.9 | Event-Driven Architecture Style | 🔴 | — | |
 | 1.10 | Space-Based Architecture Style | ⚪ | — | |
 | 1.11 | Understanding Architectural Characteristics | ⚪ | — | |
 | 1.12 | Diagramming Software Architecture | ⚪ | — | |
@@ -253,6 +253,10 @@ Domain and technical
 - 
 Good for modularity, but not for simplicity.
 Maintainability, testability, deployability, and evolvability are high.
+
+
+The responsiveness is low, because they manipulate independently, all the related domains.
+Think latency, and distributed things
 
 Scalability and fault tolerance are also high.
 
