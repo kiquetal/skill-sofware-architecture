@@ -227,6 +227,8 @@ microservices architecture, service-based architecture, event-driven architectur
 
 **Takeaway:**
 - 
+Minimal functionality to run the system 
+Core system, plug-in component
 
 ---
 
