@@ -21,7 +21,7 @@ live under [`concepts/`](./concepts) as I create them.
 | 4 | Advancing | tbd | — | ⚪ Not started | |
 | 5 | Expert | tbd | — | ⚪ Not started | |
 
-**Overall:** 0 / 43 competencies verified _(15 mapped for Level 1; Levels 2–5 counts pending)_.
+**Overall:** 6 / 43 competencies verified _(15 mapped for Level 1; Levels 2–5 counts pending)_.
 
 Status legend: 🟢 Done · 🟡 In progress · 🔴 Known gap · ⚪ Not started
 
