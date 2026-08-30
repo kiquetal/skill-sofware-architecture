@@ -163,9 +163,27 @@ microservice architecture, service-based architecture, event-driven architecture
 
 - 11 Fallacies of distributed computing:
 
+1- Network is reliable
 
+2- Latenct is zero (get a to b)
 
+3- Bandwidth is infinite (throotling)
 
+4- Network is secure
+
+5- Topoly does not change 
+
+6- There is one administrator
+
+7- Transport cost is zero 
+
+8- The network is homogeneous
+
+9- Versioning is easy
+
+10- Compensation updates always work
+
+11- Observability is optional
 
 **Takeaway:**
 - 
