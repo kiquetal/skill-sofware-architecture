@@ -223,7 +223,7 @@ microservices architecture, service-based architecture, event-driven architectur
 
 **Key ideas:**
 - Core system vs plug-in components:
-- 
+- Almost always monolithic 
 
 **Takeaway:**
 - 
@@ -238,7 +238,8 @@ Core system, plug-in component
 **Lessons:** Topology · Knowledge Check · Data Topology · Characteristics → Final Quiz (70%)
 
 **Key ideas:**
-- 
+- Good for service decoupling, because it embrace the plugin, so you can evolve some components
+
 
 **Takeaway:**
 - 
