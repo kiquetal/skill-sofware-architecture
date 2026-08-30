@@ -270,6 +270,11 @@ Scalability and fault tolerance are also high.
 **Key ideas:**
 - Broker vs mediator topology:
 - Events vs messages:
+1- Event is adverising in the past, message is like a command or query.
+2- Event is not tipically waiting for a response, message  expecting a response or acknolewdgement.
+3- Typically broadcaste to a larger audience, but with message are directed toward a single service through point-to-point
+Ownership: event is owned by the sender. Message is owned and maintained by the receiver.
+
 
 We react to event, this event just navigate for several services. 
 Derived events is just the crucial parts, that allow us to run task in parallelal
