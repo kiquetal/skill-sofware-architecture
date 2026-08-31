@@ -382,6 +382,14 @@ Derived events is just the crucial parts, that allow us to run task in parallela
 - Relational / key-value / document / column / graph / time-series / NewSQL:
 -
 
+Key-Value no consistency
+Document no consistency
+Column almost no consitency
+Graph part consistency
+NewSQL something
+
+
+
 **Takeaway:**
 -
 
