@@ -348,9 +348,9 @@ Derived events is just the crucial parts, that allow us to run task in parallela
 **Lessons:** Data Topologies → Final Quiz (70%)
 
 **Key ideas:**
-- Database-per-service (e.g., for microservices).
-- Shared database (e.g., for monoliths/layered).
-- Event-carried state transfer (e.g., for event-driven).
+- Monolithic database (shared).
+- Domain-based database (shared by a bounded context/module).
+- Database-per-service (isolated per service).
 - Data partitioning and sharding.
 
 **Takeaway:**
