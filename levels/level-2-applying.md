@@ -31,7 +31,7 @@ Status legend: 🟢 Verified · 🟡 In progress · 🔴 Known gap · ⚪ Untest
 |---|------------|--------|------|-------|
 | 2.1 | Designing Software Architectures | ⚪ | — | |
 | 2.2 | Identifying Software Architecture Components | ⚪ | — | |
-| 2.3 | Coupling Components in Software Architecture | ⚪ | — | |
+| 2.3 | Coupling Components in Software Architecture | 🟢 | — | |
 | 2.4 | Understanding the Principle of Least Knowledge | ⚪ | — | |
 | 2.5 | Component Identification Techniques | ⚪ | — | |
 | 2.6 | Architecture to Domain Isomorphism | ⚪ | — | |
@@ -54,6 +54,8 @@ Status legend: 🟢 Verified · 🟡 In progress · 🔴 Known gap · ⚪ Untest
 **Key ideas:**
 -
 
+The "physical" is just what are being configured or something like instances
+
 **Takeaway:**
 -
 
@@ -67,6 +69,8 @@ Status legend: 🟢 Verified · 🟡 In progress · 🔴 Known gap · ⚪ Untest
 **Key ideas:**
 -
 
+Identify initial core components -> asign user stories to components ->  analyze roles and responsability -> analyze architecture characteristics -> refactor or add components
+
 **Takeaway:**
 -
 
@@ -78,10 +82,12 @@ Status legend: 🟢 Verified · 🟡 In progress · 🔴 Known gap · ⚪ Untest
 **Lessons:** Three Types of Coupling in Software Architecture → Final Quiz (70%)
 
 **Key ideas:**
--
+- **Afferent Coupling (Ca):** "Incoming" coupling. The number of components that depend *on* this component. High Ca means this component is stable, but difficult to change as it affects many others.
+- **Efferent Coupling (Ce):** "Outgoing" coupling. The number of components this component depends *on*. High Ce means this component is unstable and sensitive to changes in the components it relies upon.
+- **Abstract Coupling:** Coupling through interfaces rather than concrete implementations, which reduces overall coupling.
 
 **Takeaway:**
--
+- Afferent and efferent coupling analysis helps quantify the stability of components. The instability metric (I = Ce / (Ce + Ca)) guides how we manage dependencies to minimize cascading changes and improve system maintainability.
 
 ---
 
