@@ -138,7 +138,7 @@ Embrace modularity, but be aware of granularity.
 
 ---
 
-### 1.4 — Identifying Architectural Styles
+### 1.4 - Identifying Architectural Styles
 > **Goal:** List the primary differences between monolithic and distributed architectures.
 
 **Lessons:** Monolithic vs Distributed Architecture · The 11 Fallacies of Distributed Computing → Final Quiz (70%)
@@ -347,10 +347,18 @@ Derived events is just the crucial parts, that allow us to run task in parallela
 
 ---
 
-### 1.14 - Understanding Data Topologies
+### 1.14 — Understanding Data Topologies
 > **Goal:** List the different types of data topologies that can be applied in an architecture.
 
 **Lessons:** Data Topologies → Final Quiz (70%)
+
+| Architectural Style | Data Topology |
+| :--- | :--- |
+| Layered Monolith | Shared Database |
+| Modular Monolith | Domain-Based Database (per module) |
+| Microservices | Database-Per-Service |
+| Event-Driven | Event-Carried State Transfer |
+| Space-Based | Data Grid (In-Memory) |
 
 **Key ideas:**
 - Monolithic database (shared).
