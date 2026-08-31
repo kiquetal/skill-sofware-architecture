@@ -42,9 +42,9 @@ Status legend: 🟢 Verified · 🟡 In progress · 🔴 Known gap · ⚪ Untest
 | 1.10 | Space-Based Architecture Style | ⚪ | - | |
 | 1.11 | Understanding Architectural Characteristics | ⚪ | - | |
 | 1.12 | Diagramming Software Architecture | ⚪ | - | |
-| 1.13 | Data's Role in Software Architecture | ⚪ | - | |
-| 1.14 | Understanding Data Topologies | ⚪ | - | |
-| 1.15 | Understanding Database Types | ⚪ | - | |
+| 1.13 | Data's Role in Software Architecture | ⚪ | — | |
+| 1.14 | Understanding Data Topologies | 🟢 | — | |
+| 1.15 | Understanding Database Types | ⚪ | — | |
 
 ---
 
@@ -342,7 +342,7 @@ Derived events is just the crucial parts, that allow us to run task in parallela
 
 ---
 
-### 1.14 — Understanding Data Topologies
+### 1.14 - Understanding Data Topologies
 > **Goal:** List the different types of data topologies that can be applied in an architecture.
 
 **Lessons:** Data Topologies → Final Quiz (70%)

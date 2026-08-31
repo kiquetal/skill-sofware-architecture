@@ -15,7 +15,7 @@ live under [`concepts/`](./concepts) as I create them.
 
 | Level | Name | Competencies | Done | Status | Notes |
 |-------|------|:------------:|:----:|--------|-------|
-| [1](./levels/level-1-exploring.md) | Exploring | 15 | 6/15 | 🟡 In progress | Architecture thinking, styles, characteristics, data |
+| [1](./levels/level-1-exploring.md) | Exploring | 15 | 7/15 | 🟡 In progress | Architecture thinking, styles, characteristics, data |
 | 2 | Applying | tbd | — | ⚪ Not started | Add competencies when known |
 | 3 | Building | tbd | — | ⚪ Not started | |
 | 4 | Advancing | tbd | — | ⚪ Not started | |
