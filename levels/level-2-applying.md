@@ -82,9 +82,21 @@ Identify initial core components -> asign user stories to components ->  analyze
 **Lessons:** Three Types of Coupling in Software Architecture → Final Quiz (70%)
 
 **Key ideas:**
-- **Afferent Coupling (Ca):** "Incoming" coupling. The number of components that depend *on* this component. High Ca means this component is stable, but difficult to change as it affects many others.
-- **Efferent Coupling (Ce):** "Outgoing" coupling. The number of components this component depends *on*. High Ce means this component is unstable and sensitive to changes in the components it relies upon.
-- **Abstract Coupling:** Coupling through interfaces rather than concrete implementations, which reduces overall coupling.
+- **Afferent Coupling (Ca):** "Incoming" coupling. The number of components that depend *on* this component.
+  ```text
+  [ A ] \
+         --> [ Component ]
+  [ B ] /
+  (A and B depend ON "Component" -> High Ca)
+  ```
+- **Efferent Coupling (Ce):** "Outgoing" coupling. The number of components this component depends *on*.
+  ```text
+           /-> [ C ]
+  [ Component ]
+           \-> [ D ]
+  ("Component" depends ON C and D -> High Ce)
+  ```
+- **Abstract Coupling:** Coupling through interfaces rather than concrete implementations.
 
 **Takeaway:**
 - Afferent and efferent coupling analysis helps quantify the stability of components. The instability metric (I = Ce / (Ce + Ca)) guides how we manage dependencies to minimize cascading changes and improve system maintainability.
