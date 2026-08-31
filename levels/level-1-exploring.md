@@ -34,17 +34,17 @@ Status legend: 🟢 Verified · 🟡 In progress · 🔴 Known gap · ⚪ Untest
 | 1.2 | Expectations of a Software Architect | 🟢 | - | |
 | 1.3 | Modularity vs Granularity | 🟢 | - | |
 | 1.4 | Identifying Architectural Styles | 🟢 | - | |
-| 1.5 | Layered Monolithic Architecture Style | ⚪ | - | |
-| 1.6 | Modular Monolith Architecture Style | ⚪ | - | |
-| 1.7 | Microkernel Architecture Style | 🟢 | - | |
-| 1.8 | Microservices Architecture Style | 🟢 | - | |
-| 1.9 | Event-Driven Architecture Style | 🔴 | - | |
-| 1.10 | Space-Based Architecture Style | ⚪ | - | |
-| 1.11 | Understanding Architectural Characteristics | ⚪ | - | |
-| 1.12 | Diagramming Software Architecture | ⚪ | - | |
-| 1.13 | Data's Role in Software Architecture | ⚪ | - | |
-| 1.14 | Understanding Data Topologies | 🟢 | - | |
-| 1.15 | Understanding Database Types | ⚪ | - | |
+| 1.5 | Layered Monolithic Architecture Style | 🟢 | — | |
+| 1.6 | Modular Monolith Architecture Style | 🟢 | — | |
+| 1.7 | Microkernel Architecture Style | 🟢 | — | |
+| 1.8 | Microservices Architecture Style | 🟢 | — | |
+| 1.9 | Event-Driven Architecture Style | 🟢 | — | |
+| 1.10 | Space-Based Architecture Style | 🟢 | — | |
+| 1.11 | Understanding Architectural Characteristics | 🟢 | — | |
+| 1.12 | Diagramming Software Architecture | 🟢 | — | |
+| 1.13 | Data's Role in Software Architecture | 🟢 | — | |
+| 1.14 | Understanding Data Topologies | 🟢 | — | |
+| 1.15 | Understanding Database Types | 🟢 | — | |
 
 ---
 
@@ -347,7 +347,7 @@ Derived events is just the crucial parts, that allow us to run task in parallela
 
 ---
 
-### 1.14 — Understanding Data Topologies
+### 1.14 - Understanding Data Topologies
 > **Goal:** List the different types of data topologies that can be applied in an architecture.
 
 **Lessons:** Data Topologies → Final Quiz (70%)
