@@ -42,9 +42,9 @@ Status legend: 🟢 Verified · 🟡 In progress · 🔴 Known gap · ⚪ Untest
 | 1.10 | Space-Based Architecture Style | ⚪ | - | |
 | 1.11 | Understanding Architectural Characteristics | ⚪ | - | |
 | 1.12 | Diagramming Software Architecture | ⚪ | - | |
-| 1.13 | Data's Role in Software Architecture | ⚪ | — | |
-| 1.14 | Understanding Data Topologies | 🟢 | — | |
-| 1.15 | Understanding Database Types | ⚪ | — | |
+| 1.13 | Data's Role in Software Architecture | ⚪ | - | |
+| 1.14 | Understanding Data Topologies | 🟢 | - | |
+| 1.15 | Understanding Database Types | ⚪ | - | |
 
 ---
 
@@ -138,16 +138,21 @@ Embrace modularity, but be aware of granularity.
 
 ---
 
-### 1.4 - Identifying Architectural Styles
+### 1.4 — Identifying Architectural Styles
 > **Goal:** List the primary differences between monolithic and distributed architectures.
 
 **Lessons:** Monolithic vs Distributed Architecture · The 11 Fallacies of Distributed Computing → Final Quiz (70%)
 
-
-|Architecture style | Architecture pattern |
-|------------------ | -------------------- |
-| Type of deployment, naming of service | Contextual solution to a particular problem |
-
+| Architectural Style | Description |
+| :--- | :--- |
+| N-tier (Layered) | Traditional architecture based on layers of concern. |
+| Modular Monolith | Monolithic deployment with strong modular boundaries. |
+| Microkernel | Core system with pluggable features. |
+| Microservices | Distributed services based on bounded contexts. |
+| Service-based | Services grouped around business domains (less distributed). |
+| Service-oriented | Services interacting through an ESB/service bus. |
+| Event-driven | Asynchronous communication via events. |
+| Space-based | High-throughput style using data grids. |
 
 **Key ideas:**
 - Monolithic vs distributed:
