@@ -262,7 +262,7 @@ Scalability and fault tolerance are also high.
 
 ---
 
-### 1.9 — Event-Driven Architecture Style
+### 1.9 - Event-Driven Architecture Style
 > **Goal:** Describe topologies and characteristics of the event-driven style.
 
 **Lessons:** Topology · Exercise: Events vs Messages · Knowledge Check · Data Topology · Characteristics → Final Quiz (70%)
@@ -276,16 +276,16 @@ Scalability and fault tolerance are also high.
 Ownership: event is owned by the sender. Message is owned and maintained by the receiver.
 
 
-We react to event, this event just navigate for several services. 
+We react to event, this event just navigate for several services.
 Derived events is just the crucial parts, that allow us to run task in parallelal
 
 
 **Takeaway:**
-- 
+-
 
 ---
 
-### 1.10 — Space-Based Architecture Style
+### 1.10 - Space-Based Architecture Style
 > **Goal:** Describe topologies and characteristics of the space-based style.
 
 **Lessons:** Topology · Knowledge Check · Data Topology · Characteristics → Final Quiz (70%)
@@ -293,6 +293,8 @@ Derived events is just the crucial parts, that allow us to run task in parallela
 **Key ideas:**
 - Tuple space / data grid, avoiding the database bottleneck:
 -
+
+
 
 **Takeaway:**
 -
@@ -340,16 +342,19 @@ Derived events is just the crucial parts, that allow us to run task in parallela
 
 ---
 
-### 1.14 - Understanding Data Topologies
+### 1.14 — Understanding Data Topologies
 > **Goal:** List the different types of data topologies that can be applied in an architecture.
 
 **Lessons:** Data Topologies → Final Quiz (70%)
 
 **Key ideas:**
--
+- Database-per-service (e.g., for microservices).
+- Shared database (e.g., for monoliths/layered).
+- Event-carried state transfer (e.g., for event-driven).
+- Data partitioning and sharding.
 
 **Takeaway:**
--
+- Choose the data topology that aligns with your architectural style's demands for consistency, availability, and coupling.
 
 ---
 
