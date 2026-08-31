@@ -356,7 +356,9 @@ Derived events is just the crucial parts, that allow us to run task in parallela
 | :--- | :--- |
 | Layered Monolith | Shared Database |
 | Modular Monolith | Domain-Based Database (per module) |
+| Microkernel | Shared or Domain-Based |
 | Microservices | Database-Per-Service |
+| Service-Based | Shared, Domain-Based, or Database-Per-Service |
 | Event-Driven | Event-Carried State Transfer |
 | Space-Based | Data Grid (In-Memory) |
 
