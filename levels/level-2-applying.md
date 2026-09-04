@@ -109,13 +109,20 @@ Identify initial core components -> asign user stories to components ->  analyze
 **Lessons:** The Law of Demeter → Final Quiz (70%)
 
 **Key ideas:**
--
+- A service or component should have limited knowledge about other services or components; it should only talk to its "immediate friends."
+- **Use Case (Violation):** An `Order` service calls `order.getCustomer().getAddress().getCity()`. This tightly couples `Order` to `Customer` and `Address` implementation details.
+- **Use Case (Fix):** `Order` calls `order.getShippingCity()`, delegating the internal lookup to `Order` or `Customer`.
 
-A service or component shuld have limied knowledge about other service or components
+```text
+// Violation (Too much knowledge)
+[Order] -> [Customer] -> [Address] -> [City]
 
+// Fix (LoD compliant)
+[Order] -> [ShippingCity]
+```
 
 **Takeaway:**
--
+- Applying the Law of Demeter reduces coupling by enforcing encapsulation. By limiting traversal of object graphs, we prevent cascading changes when the internal structure of dependencies changes.
 
 ---
 
