@@ -109,7 +109,8 @@ Identify initial core components -> asign user stories to components ->  analyze
 **Lessons:** The Law of Demeter → Final Quiz (70%)
 
 **Key ideas:**
-- **Definition:** The Law of Demeter (LoD), or Principle of Least Knowledge, dictates that a component should only interact with its immediate acquaintances and not reach into the internal implementation details of those acquaintances. It prevents "chains of dependency" and ensures components interact only with their "direct friends."
+- "A service or component should have limited knowledge about other services or components; it should only talk to its immediate friends."
+- This is also known as the Principle of Least Knowledge, which dictates that a component should not traverse the internal structure of its associates to reach deeper objects.
 - **Architectural Use Case (Violation):** An `OrderService` needs to update shipping status. Instead of calling `ShippingService`, it bypasses it and calls `WarehouseService` directly to update the package status, because it knows that `WarehouseService` is an internal dependency of `ShippingService`.
 - **Architectural Use Case (Fix):** `OrderService` calls `ShippingService`. `ShippingService` manages the orchestration with `WarehouseService` internally. `OrderService` remains ignorant of `WarehouseService`'s existence or API.
 
