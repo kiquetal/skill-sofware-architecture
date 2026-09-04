@@ -29,10 +29,10 @@ Status legend: 🟢 Verified · 🟡 In progress · 🔴 Known gap · ⚪ Untest
 
 | # | Competency | Status | Quiz | Notes |
 |---|------------|--------|------|-------|
-| 2.1 | Designing Software Architectures | ⚪ | — | |
-| 2.2 | Identifying Software Architecture Components | ⚪ | — | |
+| 2.1 | Designing Software Architectures | 🟢 | — | |
+| 2.2 | Identifying Software Architecture Components | 🟢 | — | |
 | 2.3 | Coupling Components in Software Architecture | 🟢 | — | |
-| 2.4 | Understanding the Principle of Least Knowledge | ⚪ | — | |
+| 2.4 | Understanding the Principle of Least Knowledge | 🟡 | — | |
 | 2.5 | Component Identification Techniques | ⚪ | — | |
 | 2.6 | Architecture to Domain Isomorphism | ⚪ | — | |
 | 2.7 | Examining Layered Monolithic Architectures | ⚪ | — | |
