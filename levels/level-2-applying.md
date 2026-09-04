@@ -144,8 +144,9 @@ When we change to loouse coupling we just depende on another and aother componen
 
 **Lessons:** Component Identification Techniques → Final Quiz (70%)
 
+KATA techniques: 
 
-
+- The entity trap: THIS IS THE GO-TO ARCHITECTURE, just do not trust.
 
 
 
