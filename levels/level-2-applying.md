@@ -187,10 +187,22 @@ Architectura topology the generic shape or structure of an architecture
 **Lessons:** Deep Dive into Layered Monolithic Architecture → Final Quiz (70%)
 
 **Key ideas:**
--
+- **Open/Closed Layers:**
+  - **Closed Layer:** A request must go through the layer immediately below it.
+  - **Open Layer:** A request can skip a layer to access the one below it.
+
+```text
+// Closed Layer (Strict - More secure/controlled)
+[ UI ] -> [ Business ] -> [ Persistence ]
+
+// Open Layer (Flexible - Skip a layer)
+[ UI ] --+-------------> [ Persistence ]
+         v
+     [ Business ]
+```
 
 **Takeaway:**
--
+- Closed layers provide better encapsulation and easier change management, but open layers can improve performance by reducing overhead in simple systems. Trade-offs!
 
 ---
 
