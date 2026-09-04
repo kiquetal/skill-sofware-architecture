@@ -193,12 +193,32 @@ Architectura topology the generic shape or structure of an architecture
 
 ```text
 // Closed Layer (Strict - More secure/controlled)
-[ UI ] -> [ Business ] -> [ Persistence ]
++--------------+
+|      UI      |
++--------------+
+       |
++--------------+
+|   Business   |
++--------------+
+       |
++--------------+
+| Persistence  |
++--------------+
 
-// Open Layer (Flexible - Skip a layer)
-[ UI ] --+-------------> [ Persistence ]
-         v
-     [ Business ]
+// Open Layer (Flexible - Can skip a layer)
++--------------+
+|      UI      |
++--------------+
+  |    |
+  |    +--------+ (skips Business)
+  v             |
++--------------+v
+|   Business   +--------------+
++--------------+              |
+       |                      |
++--------------+--------------+
+| Persistence  |
++--------------+
 ```
 
 **Takeaway:**
