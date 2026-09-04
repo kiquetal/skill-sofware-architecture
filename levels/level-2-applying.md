@@ -145,7 +145,9 @@ When we change to loouse coupling we just depende on another and aother componen
 **Lessons:** Component Identification Techniques → Final Quiz (70%)
 
 **Key ideas:**
-- **The Entity Trap:** Avoid the common mistake of simply mapping database tables/entities directly to architectural components. Entities are data holders; components should be defined by **behavior** and **responsibilities**.
+- **KATA techniques:**
+  - The entity trap: THIS IS THE GO-TO ARCHITECTURE, just do not trust.
+- **The Entity Trap (Expanded):** Avoid the common mistake of simply mapping database tables/entities directly to architectural components. Entities are data holders; components should be defined by **behavior** and **responsibilities**.
 - **User Story Decomposition:** Map user stories to specific components. If a user story spans too many components, that is a smell suggesting your components might be too granular or improperly bounded.
 - **Component Classification:** 
   - **Core Components:** Handle the primary domain logic.
