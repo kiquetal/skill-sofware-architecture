@@ -228,7 +228,9 @@ Separation of concerns in trumbles.
 
 
 **Takeaway:**
-- Closed layers provide better encapsulation and easier change management (changes in one layer are less likely to ripple through others), but open layers can improve performance by reducing overhead in simple systems. Ultimately, architectural decisions are always a trade-off between control, performance, and flexibility. Adopting a strict closed-layer approach forces disciplined interaction but introduces more "plumbing" code, whereas opening layers simplifies access but can lead to a "spaghetti" monolithic architecture where component boundaries blur over time.
+- Closed layers provide better encapsulation and easier change management, but open layers can improve performance by reducing overhead in simple systems. Trade-offs!
+
+Separation of concerns in trumbles.
 
 ---
 
