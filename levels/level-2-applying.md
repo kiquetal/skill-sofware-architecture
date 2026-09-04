@@ -244,10 +244,12 @@ Separation of concerns in trumbles.
 
 **Key ideas:**
 -
-Inherits all the problem of the monolithic: fault tolerance, 
+takes all the risk of monolitch: no fault tolerance, not scalability,no isolation
 
 **Takeaway:**
 -
+you start separating by domain, that can help in the future for microservice goal.
+
 
 ---
 
