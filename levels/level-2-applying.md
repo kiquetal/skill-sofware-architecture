@@ -111,6 +111,9 @@ Identify initial core components -> asign user stories to components ->  analyze
 **Key ideas:**
 -
 
+A service or component shuld have limied knowledge about other service or components
+
+
 **Takeaway:**
 -
 
