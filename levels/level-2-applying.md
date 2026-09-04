@@ -144,17 +144,17 @@ When we change to loouse coupling we just depende on another and aother componen
 
 **Lessons:** Component Identification Techniques → Final Quiz (70%)
 
-KATA techniques: 
-
-- The entity trap: THIS IS THE GO-TO ARCHITECTURE, just do not trust.
-
-
-
 **Key ideas:**
--
+- **The Entity Trap:** Avoid the common mistake of simply mapping database tables/entities directly to architectural components. Entities are data holders; components should be defined by **behavior** and **responsibilities**.
+- **User Story Decomposition:** Map user stories to specific components. If a user story spans too many components, that is a smell suggesting your components might be too granular or improperly bounded.
+- **Component Classification:** 
+  - **Core Components:** Handle the primary domain logic.
+  - **Supporting Components:** Provide utility functions (logging, data validation, etc.).
+  - **Infrastructure Components:** Handle cross-cutting concerns (DB access, messaging).
+- **Iterative Refinement:** Start with a high-level view (the "initial core components"), map functionality, analyze for cohesion and coupling (afferent/efferent), and refactor.
 
 **Takeaway:**
--
+- Don't just design for data—design for *behavior*. A robust component identification strategy requires balancing domain logic encapsulation with architectural characteristics (scalability, maintainability, etc.).
 
 ---
 
