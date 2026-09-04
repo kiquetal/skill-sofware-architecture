@@ -32,10 +32,10 @@ Status legend: 🟢 Verified · 🟡 In progress · 🔴 Known gap · ⚪ Untest
 | 2.1 | Designing Software Architectures | 🟢 | — | |
 | 2.2 | Identifying Software Architecture Components | 🟢 | — | |
 | 2.3 | Coupling Components in Software Architecture | 🟢 | — | |
-| 2.4 | Understanding the Principle of Least Knowledge | 🟡 | — | |
-| 2.5 | Component Identification Techniques | ⚪ | — | |
+| 2.4 | Understanding the Principle of Least Knowledge | 🟢 | — | |
+| 2.5 | Component Identification Techniques | 🟢 | — | |
 | 2.6 | Architecture to Domain Isomorphism | ⚪ | — | |
-| 2.7 | Examining Layered Monolithic Architectures | ⚪ | — | |
+| 2.7 | Examining Layered Monolithic Architectures | 🟡 | — | |
 | 2.8 | Examining Modular Monolithic Architectures | ⚪ | — | |
 | 2.9 | Examining Microkernel Architectures | ⚪ | — | |
 | 2.10 | Examining Microservices Architecture | ⚪ | — | |
@@ -223,6 +223,9 @@ Architectura topology the generic shape or structure of an architecture
 
 
 We can bypass some layers
+
+Separation of concerns in trumbles.
+
 
 **Takeaway:**
 - Closed layers provide better encapsulation and easier change management, but open layers can improve performance by reducing overhead in simple systems. Trade-offs!
