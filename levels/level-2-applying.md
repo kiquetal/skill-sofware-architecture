@@ -169,6 +169,9 @@ Isomorphism: isos meaning equal morphe = form or shape.
 
 Does the shape of architecture match the shape  of the problem domain?
 
+Styles are named topologies, while patterns are contextual solutions to problems.
+
+Architectura topology the generic shape or structure of an architecture
 
 **Key ideas:**
 -
