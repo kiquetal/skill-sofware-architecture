@@ -54,3 +54,6 @@ Status legend: 🟢 Done · 🟡 In progress · 🔴 Known gap · ⚪ Not starte
 - O'Reilly Skill: Software Architecture — https://learning.oreilly.com/skill/software-architecture/0642572295189/
 - _Fundamentals of Software Architecture_ — Mark Richards & Neal Ford
 - _Software Architecture: The Hard Parts_ — Neal Ford, Mark Richards, et al.
+<!-- metadata updated -->
+ 
+ 
