@@ -189,6 +189,7 @@ Architectura topology the generic shape or structure of an architecture
 **Key ideas:**
 - **Team enabled:** Facilitates concurrent work by different teams on different layers.
 - **Big ball of mud:** A significant risk if layer boundaries are not strictly enforced and layers are left open.
+- **Sinkhole architecture:** A risk where a request passes through a layer without any logic or transformation, just acting as a "pass-through" (a sinkhole).
 - **Open/Closed Layers:**
   - **Closed Layer:** A request must go through the layer immediately below it.
   - **Open Layer:** A request can skip a layer to access the one below it.
