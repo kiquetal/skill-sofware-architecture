@@ -129,12 +129,25 @@ Identify initial core components -> asign user stories to components ->  analyze
 **Takeaway:**
 - Applying the Law of Demeter reduces architectural coupling. By forcing components to interact only through defined APIs of direct dependencies, we maintain encapsulation, allowing internal components to be refactored without breaking higher-level service contracts.
 
+
+Everything is a trade-off
+
+Order was the centralized so that would be the benefit
+
+When we change to loouse coupling we just depende on another and aother components.
+
+
 ---
 
 ### 2.5 — Component Identification Techniques
 > **Goal:** Demonstrate the creation of a logical architecture and classify its core components.
 
 **Lessons:** Component Identification Techniques → Final Quiz (70%)
+
+
+
+
+
 
 **Key ideas:**
 -
