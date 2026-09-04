@@ -221,6 +221,9 @@ Architectura topology the generic shape or structure of an architecture
 +--------------+
 ```
 
+
+We can bypass some layers
+
 **Takeaway:**
 - Closed layers provide better encapsulation and easier change management, but open layers can improve performance by reducing overhead in simple systems. Trade-offs!
 
