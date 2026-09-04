@@ -244,6 +244,7 @@ Separation of concerns in trumbles.
 
 **Key ideas:**
 -
+Inherits all the problem of the monolithic: fault tolerance, 
 
 **Takeaway:**
 -
