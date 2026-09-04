@@ -165,6 +165,11 @@ When we change to loouse coupling we just depende on another and aother componen
 
 **Lessons:** Architecture to Domain Isomorphism → Final Quiz (70%)
 
+Isomorphism: isos meaning equal morphe = form or shape.
+
+Does the shape of architecture match the shape  of the problem domain?
+
+
 **Key ideas:**
 -
 
