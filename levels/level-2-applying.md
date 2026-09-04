@@ -114,11 +114,11 @@ Identify initial core components -> asign user stories to components ->  analyze
 - **Use Case (Fix):** `Order` calls `order.getShippingCity()`, delegating the internal lookup to `Order` or `Customer`.
 
 ```text
-// Violation (Too much knowledge)
-[Order] -> [Customer] -> [Address] -> [City]
+// Violation (Too much knowledge - "Train Wreck")
+[ Order ] ---> [ Customer ] ---> [ Address ] ---> [ City ]
 
-// Fix (LoD compliant)
-[Order] -> [ShippingCity]
+// Fix (LoD compliant - Encapsulation)
+[ Order ] -------------------------------------> [ City ]
 ```
 
 **Takeaway:**
