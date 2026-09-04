@@ -16,7 +16,7 @@ live under [`concepts/`](./concepts) as I create them.
 | Level | Name | Competencies | Done | Status | Notes |
 |-------|------|:------------:|:----:|--------|-------|
 | [1](./levels/level-1-exploring.md) | Exploring | 15 | 15/15 | 🟢 Verified | Architecture thinking, styles, characteristics, data |
-| [2](./levels/level-2-applying.md) | Applying | 12 | 3/12 | 🟡 In progress | Designing, component identification, coupling |
+| [2](./levels/level-2-applying.md) | Applying | 12 | 5/12 | 🟡 In progress | Designing, component identification, coupling |
 | 3 | Building | tbd | — | ⚪ Not started | |
 | 4 | Advancing | tbd | — | ⚪ Not started | |
 | 5 | Expert | tbd | — | ⚪ Not started | |
